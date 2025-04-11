@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stadtwerke Stettbeck</title>
+    <link rel="icon" type="image/png" href="Bilder/Logo2.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script defer src="app.js"></script>
+    <script src="alert.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e0b17e5841.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ddbe5c6ec.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <div class="nav" id="nav_id">
+        <a href="index.html" class="active">Home</a>
+        <!--<a href="services.html" class="active">Dienstleistungen</a>!-->
+        <a href="jobs.html">Karrieremöglichkeiten & Dienstleistungen</a>
+        <a href="hausordnung.html">Hausordnung</a>
+        <a href="contact.html">Team & Kontakte</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="javascript:void(0);" class="icon" onclick="showWelcomeAlert()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    
+
+    <img class="head_img" src="Bilder/Logo.png" alt="Logo">
+
+    <section class="main_1">
+        <div class="hidden">
+            <h1 id="Parkplatzordnung" class="imph05">Unser Standort</h1>
+            <br>
+            <div class="slideshow-container main_1">
+                <div class="slide">
+                    <img src="Bilder/Standort.PNG" alt="Bild1">
+                    <div class="caption">Hier findest du unseren Standort auf der Karte</div>
+                </div>
+                <div class="slide">
+                    <img src="Bilder/Gelände.png" alt="Bild2">
+                    <div class="caption">Unser Gelände</div>
+                </div>
+                <div class="slide">
+                    <img src="Bilder/Gelände_Parkplatzordnung.png" alt="Bild3">
+                    <div class="caption">Unsere Parkplatzordnung</div>
+                </div>
+                <br>
+                <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(1, 'main_1')"></span>
+                    <span class="dot" onclick="currentSlide(2, 'main_1')"></span>
+                    <span class="dot" onclick="currentSlide(3, 'main_1')"></span>
+                </div>
+                <br><br><br>
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer layer_3"></div>
+
+    <section class="main_2">
+        <div class="main_2_grid">
+            <div class="main_text_2 hidden_2">
+                <h1 class="imph03">Unser Fuhrpark</h1>
+                <br>
+                <div class="slideshow-container main_2">
+                    <div class="slide">
+                      <img src="Bilder/Brute_Entstördienst_Sprinter.png" alt="Bild1">
+                      <div class="caption">Brute Entstördienst Sprinter</div>
+                    </div>
+                    <div class="slide">
+                      <img src="Bilder/Brute_Stadtwerke_Sprinter.png" alt="Bild2">
+                      <div class="caption">Brute Stadtwerke Sprinter</div>
+                    </div>
+                    <div class="slide">
+                      <img src="Bilder/Brute_Pritsche.png" alt="Bild3">
+                      <div class="caption">Brute Pritsche</div>
+                    </div>
+                    <div class="slide">
+                      <img src="Bilder/MTL_LKW_Pritsche.png" alt="Bild4">
+                      <div class="caption">MTL LKW Pritsche</div>
+                    </div>
+                    <div class="slide">
+                      <img src="Bilder/MTL_LKW_Pritsche_mit_Warntafel.png" alt="Bild5">
+                      <div class="caption">MTL LKW Pritsche mit Warntafel</div>
+                    </div>
+                    <div class="slide">
+                      <img src="Bilder/Bereichsleitungsfahrzeug.png" alt="Bild6">
+                      <div class="caption">Bereichsleitungsfahrzeug</div>
+                    </div>
+                    <div class="slide">
+                      <img src="Bilder/Vorstandsfahrzeug.png" alt="Bild7">
+                      <div class="caption">Vorstandsfahrzeug</div>
+                    </div>
+                    <br>
+                    <div class="dots-container">
+                        <span class="dot" onclick="currentSlide(1, 'main_2')"></span>
+                        <span class="dot" onclick="currentSlide(2, 'main_2')"></span>
+                        <span class="dot" onclick="currentSlide(3, 'main_2')"></span>
+                        <span class="dot" onclick="currentSlide(4, 'main_2')"></span>
+                        <span class="dot" onclick="currentSlide(5, 'main_2')"></span>
+                        <span class="dot" onclick="currentSlide(6, 'main_2')"></span>
+                        <span class="dot" onclick="currentSlide(7, 'main_2')"></span>
+                    </div>
+                    <br><br><br>
+                    <script src="diashow.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer layer_2"></div>
+
+    <section class="main_3">
+        <h1 class="imph5">Besuch uns doch hier:</h1>
+        <br>
+        <iframe src="https://discord.com/widget?id=1341190805552893992&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    </section>
+
+    <div class="spacer layer"></div>
+    
+    <footer class="site-footer">
+        <div class="copytext">
+            <hr>
+            <p>
+                Copyright &copy; 2025 All Rights Reserved by
+                <a class="linkimp" href="index.html">Stadtwerke Stettbeck</a>. 
+                <br> <b class="nnlink">Achtung: Hierbei handelt es sich um eine für ein Rollenspiel ausgedachte und fiktive Homepage. Diese Inhalte stellen keine realen Informationen, Behörden, Unternehmen oder ähnliches dar. <br> Diese Webseite wurde für einen FiveM Server names <a class="linkimp" href="https://nordnetzwerk.eu" target="_blank"><i>Nordnetzwerk.eu</i></a> kreiert!</b>
+                <ul class="social-icons">
+                    <li><a class="discord" href="https://discord.gg/7CAzWcfsS4" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-discord"></i></a></li>
+                    <!--<li><a class="instagram" href="https://instagram.com/pannendienst.stettbeck?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-instagram"></i></a></li>!-->
+                </ul>
+            </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
